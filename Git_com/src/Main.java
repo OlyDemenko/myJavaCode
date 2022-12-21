@@ -10,6 +10,9 @@ import Course1.Students1.Student_Victor;
 import Course1.Teachers1.Teacher_Boris;
 import Course1.Teachers1.Teacher_Maria;
 import Course1.Teachers1.Teacher_Vlad;
+import Homework_5.Lection_4;
+import Homework_5.Lection_5;
+import Homework_5.Lection_6;
 
 import static Course1.Students1.Student_Max.amountMaxim;
 import static Course1.Students1.Student_Vera.amountVera;
@@ -29,9 +32,6 @@ public class Main {
         System.out.println(Student_Vera.name);
         System.out.println(Student_Victor.name);
 
-        /* Вийшло дуже банально, але фокус з counter ++ у мене не вийшов.
-         * Пише, що не вистачає <identifier>, хоча public static int = 0 я додавав.
-         */
         System.out.println("Загальна кількість: ");
         System.out.println(amountMaxim + amountVera + amountVictor);
         System.out.println("**************************");
@@ -66,5 +66,53 @@ public class Main {
         System.out.println("Загальна кількість: ");
         System.out.println(amountMaxim + amountVera + amountVictor);
         System.out.println("**************************");
+
+
+        System.out.println(Teacher_Boris.name); // Вчитель
+
+        System.out.println(Lection_4.name); // Лекція
+
+
+        // Список студентів
+        System.out.println(Student_Max.name);
+        System.out.println(Student_Vera.name);
+
+        System.out.println("Загальна кількість: ");
+        System.out.println(amountMaxim + amountVera);
+        System.out.println("**************************");
+
+
+        System.out.println(Teacher_Vlad.name); // Вчитель
+
+        System.out.println(Lection_5.name); // Лекція
+
+
+        // Список студентів
+        System.out.println(Student_Max.name);
+        System.out.println(Student_Vera.name);
+
+        System.out.println("Загальна кількість: ");
+        System.out.println(amountMaxim + amountVera);
+        System.out.println("**************************");
+
+
+        System.out.println(Teacher_Boris.name); // Вчитель
+
+        System.out.println(Lection_6.name); // Лекція
+
+
+        // Список студентів
+        System.out.println(Student_Max.name);
+        System.out.println(Student_Vera.name);
+
+        System.out.println("Загальна кількість: ");
+        System.out.println(amountMaxim + amountVera);
+        System.out.println("**************************");
+
+
+
+
+
+
     }
 }
