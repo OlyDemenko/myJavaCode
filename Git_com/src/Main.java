@@ -12,6 +12,7 @@ import Course1.Teachers1.Teacher_Maria;
 import Course1.Teachers1.Teacher_Vlad;
 import Homework_5.Lection_4;
 import Homework_5.Lection_5;
+import Homework_5.Lection_6;
 
 import static Course1.Students1.Student_Max.amountMaxim;
 import static Course1.Students1.Student_Vera.amountVera;
@@ -93,5 +94,25 @@ public class Main {
         System.out.println("Загальна кількість: ");
         System.out.println(amountMaxim + amountVera);
         System.out.println("**************************");
+
+
+        System.out.println(Teacher_Boris.name); // Вчитель
+
+        System.out.println(Lection_6.name); // Лекція
+
+
+        // Список студентів
+        System.out.println(Student_Max.name);
+        System.out.println(Student_Vera.name);
+
+        System.out.println("Загальна кількість: ");
+        System.out.println(amountMaxim + amountVera);
+        System.out.println("**************************");
+
+
+
+
+
+
     }
 }
